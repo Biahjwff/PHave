@@ -1,0 +1,24 @@
+/*Para utilizar a fonte basta colocar 
+  o nome dela dentro de um class e importar
+  <link rel="stylesheet" href="../fonts/fonts.css">*/
+
+@font-face {
+    font-family: "nabla";
+    src: url("nabla.ttf")
+    format("truetype");
+}
+
+.nabla{
+    font-family: "nabla", sans-serif;
+}
+
+@font-face {
+    font-family: "jetBrains";
+    src: url("jetBrains.ttf")
+    format("truetype");
+}
+
+.jetBrains{
+    font-family: "jetBrains", sans-serif;
+}
+
