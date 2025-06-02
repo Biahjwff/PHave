@@ -27,18 +27,25 @@
 </head>
 <body class="">
   <!-- Container externo -->
-  <div class="bg-black flex items-center justify-center min-h-screen">
+  <div class="relative bg-black flex items-center justify-center min-h-screen">
 
-    <div id="sombra1" class="bg-purple-700 m-24 pt-32 pb-28 pr-28 pl-32 w-40 h-[332px] flex flex-col items-center justify-center rounded-3xl">
+  
+    <div id="sombra1" class="absolute z-0 left-32 bg-[rgb(204,21,226)] ml-64 pt-32 pb-28 pr-28 pl-32 w-40 h-[332px] flex flex-col items-center justify-center rounded-3xl">
       <p class="text-center text-white mb-4">QUANDO? <br> 17/12 <br> QUE HORAS? <br> 22:00 </p>
     </div>
 
+    <div class="absolute top-[22.5%] left-[42%] bg-[rgb(161,17,178)] z-20 h-[40px] w-[20px]"></div>
+    <div class="absolute top-[76.8%] left-[42%] bg-[rgb(161,17,178)] z-20 h-4 w-[20px]"></div>
+
     <!-- Bloco da Direita -->
-    <div id="sombra" class="bg-yellow-500 p-6 m-24 w-69 flex flex-col items-center justify-center rounded-3xl">
+    <div id="sombra" class="absolute z-0 right-32 bg-[rgb(254,172,1)] p-6 mr-64 w-69 flex flex-col items-center justify-center rounded-3xl">
       <p class="font-bold text-white mb-2">ONDE?</p> 
       <p class="text-center text-white mb-4">Centro de eventos <br> Herman Punhagen</p>
       <div id="map"></div>
     </div>
+
+    <div class="absolute top-[22.5%] right-[42%] bg-[rgb(217,149,8)] z-20 h-[40px] w-[20px]"></div>
+    <div class="absolute top-[76.8%] right-[42%] bg-[rgb(217,149,8)] z-20 h-4 w-[20px]"></div>
 
   </div>
 
