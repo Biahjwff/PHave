@@ -22,3 +22,12 @@
     font-family: "jetBrains", sans-serif;
 }
 
+@font-face {
+    font-family: "jetBrainsBold";
+    src: url("jetBrainsBold.ttf")
+    format("truetype");
+}
+
+.jetBrainsBold{
+    font-family: "jetBrainsBold", sans-serif;
+}
